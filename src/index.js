@@ -530,7 +530,7 @@ const commands = {
   // Help
   'help': (args) => {
     newTab = true;
-    redirect('https://github.com/koryschneider/tab#readme');
+    redirect('https://github.com/huxxer.de/tab#readme');
   },
 
   // Google
