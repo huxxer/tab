@@ -548,7 +548,7 @@ const commands = {
   },
 
   // Reddit
-  'r': (args) => {
+  'rd': (args) => {
     const url = 'https://reddit.com', search = '/r/';
     let query = (args.length > 0) ? args[0] : '';
 
