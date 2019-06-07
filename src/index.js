@@ -14,7 +14,6 @@ let aliases = {
   'cal': 'gc',
   'gk': 'k',
   'ddg': 'dg',
-  '?': 'help'
 }
 let newTab = false;
 let lastEnteredCommand = '';
@@ -530,7 +529,7 @@ const commands = {
   // Help
   'help': (args) => {
     newTab = true;
-    redirect('https://github.com/huxxer.de/tab#readme');
+    redirect('https://github.com/huxxer/tab/blob/master/doc/usage.md');
   },
 
   // Google
